@@ -1,3 +1,6 @@
+
+
+
 # Sistema de Ranqueamento de Notas — Algoritmo Bubble Sort
 
 ## 1. Informações Acadêmicas
@@ -42,6 +45,7 @@ Para manter a integridade dos registros (garantindo que o nome, o índice e a no
 
 ### Pré-requisitos
 Possuir um compilador C instalado (como GCC, Clang, MinGW ou uma IDE como Dev-C++, VS Code ou Code::Blocks).
+<img width="1477" height="762" alt="Captura de tela 2026-10-21 141517" src="https://github.com/user-attachments/assets/7bd9f857-79c2-4e6e-81a4-820756610e0c" />
 
 ### Compilando via Terminal (GCC)
 ```bash
