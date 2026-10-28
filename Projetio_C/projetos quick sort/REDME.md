@@ -5,7 +5,7 @@ Este projeto em C realiza a leitura, ordenação e exibição dos tempos alcanç
 
 ---
 
-## 📌 Funcionalidades
+##  Funcionalidades
 
 - **Entrada Interativa:** Leitura dos tempos em segundos de 10 atletas através do terminal.
 - **Algoritmo QuickSort:** Ordenação eficiente dos tempos em ordem crescente (menor tempo indica melhor colocação).
@@ -13,21 +13,13 @@ Este projeto em C realiza a leitura, ordenação e exibição dos tempos alcanç
 
 ---
 
-## 🛠️ Estrutura do Código
+## Estrutura do Código
 
 O programa é dividido nas seguintes funções:
 
 - `particionar(float vetor[], int inicio, int fim)`: Seleciona o pivô (último elemento do intervalo) e reorganiza os elementos de modo que valores menores ou iguais ao pivô fiquem à esquerda e os maiores à direita.
 - `quickSort(float vetor[], int inicio, int fim)`: Função recursiva que aplica a abordagem de *Divisão e Conquista* para ordenar o vetor.
 - `main()`: Responsável pelo fluxo de execução, coleta de dados, chamada da ordenação e exibição formatada dos resultados.
-
----
-
-## 📊 Complexidade do Algoritmo
-
-- **Caso Médio e Melhor Caso:** $\mathcal{O}(n \log n)$
-- **Pior Caso:** $\mathcal{O}(n^2)$
-- **Espaço Auxiliar:** $\mathcal{O}(\log n)$ devido às chamadas recursivas.
 
 ---
 
